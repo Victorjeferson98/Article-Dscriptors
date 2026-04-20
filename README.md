@@ -161,6 +161,8 @@ where $r_k^{\mu m}$ represents the physical radius corresponding to the angular 
 
 Mathematical modeling to obtain the representation of the radii using Fourier series is a classical spectral analysis technique that allows a periodic function, or a periodically extended function, to be expressed as a sum of sine and cosine terms with different frequencies, amplitudes, and phases. In the context of this work, the radii calculated at different angular directions from the center of mass are interpreted as a discrete function $r(\theta)$, where $\theta$ represents the polar angle and $r$ corresponds to the radial distance to the grain boundary in that direction. Since the angular variable varies in the interval $[0, 2\pi]$, the function naturally admits a periodic extension, which justifies the formal application of the Fourier series decomposition. The angular discretization is performed by sampling $N$ equally spaced directions, resulting in the finite set of radii $\{r_k\}_{k=1}^{N}$, where $N$ corresponds to the total number of angles considered in the contour representation. This discrete representation transforms the continuous geometric description of the boundary into a numerical problem, enabling the application of the Discrete Fourier Transform (DFT). The DFT of the radii is defined as
 
+![Fourier serier ilustration](https://www.allmath.com/storage/2023/Nov/FourierSeries_71.png)
+
 $$
 C_n = \sum_{k=0}^{N-1} r_k e^{-i 2\pi n k / N},
 $$
