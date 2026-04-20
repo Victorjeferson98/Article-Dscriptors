@@ -87,7 +87,7 @@ with $\sigma$ representing the standard deviation that controls the degree of sm
 
 The clustering of groups was performed using the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm, implemented in the Scikit-Learn library Pedregosa, 2011. DBSCAN is a density-based clustering method, which identifies sets of spatially connected points based on the local concentration of the samples, being able to consider clusters with arbitrary geometry and automatically separate points classified as noise Ester, 1996. This characteristic is particularly relevant in the context of petrographic images, in which mineral grains exhibit irregular shapes and heterogeneous spatial distribution. Formally, consider a set of points $\mathcal{X} = \{ \mathbf{x}_i \in \mathbb{R}^2 \}$, where each point $\mathbf{x}_i = (x_i, y_i)$ represents the spatial coordinate of a pixel belonging to the previously segmented solid phase. Define the environment $\varepsilon$ of a point $\mathbf{x}_i$ as the set
 
-![DBSCAN clustering illustration]([https://share.google/nu1cjUk40zgEhSLes](https://media.geeksforgeeks.org/wp-content/uploads/20250912174514326431/4.webp))
+![DBSCAN clustering illustration](https://media.geeksforgeeks.org/wp-content/uploads/20250912174514326431/4.webp)
 
 $$
 N_{\varepsilon}(\mathbf{x}_i) = \left\{ \mathbf{x}_j \in \mathcal{X} \mid \lVert \mathbf{x}_i - \mathbf{x}_j \rVert_2 \leq \varepsilon \right\},
