@@ -14,7 +14,6 @@ data/
 ├── raw/
 ├── processed/
 ├── masks/
-├── contours/
 └── README.md
 ```
 
@@ -27,8 +26,8 @@ Contains the original petrographic images used as input for segmentation and Fou
 Examples:
 
 ```text
-data/raw/faro_12.png
-data/raw/lamina_32.png
+data/raw/lamina_12.jpg
+data/raw/lamina_32.jpg
 ```
 
 These images are typically RGB microscopy images acquired from thin sections.
@@ -47,15 +46,6 @@ Typical preprocessing operations include:
 - Gaussian smoothing;
 - normalization.
 
-Example files:
-
-```text
-data/processed/grayscale/
-data/processed/enhanced/
-data/processed/smoothed/
-```
-
----
 
 # masks/
 
