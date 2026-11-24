@@ -8,8 +8,8 @@ This repository contains two Jupyter notebooks for processing petrographic thin-
 
 | Notebook | Purpose |
 | --- | --- |
-| `segmentation_EN.ipynb` | Image preprocessing, binary segmentation, marker-controlled watershed, grain separation, visualizations and measurements. |
-| `fourier_modelo_final_EN.ipynb` | Polar contour extraction, Fourier reconstruction, reconstruction-error assessment, geometric descriptors, classifications, frequency tables and spatial sector analysis. |
+| `segmentation.ipynb` | Image preprocessing, binary segmentation, marker-controlled watershed, grain separation, visualizations and measurements. |
+| `fourier_modelo_final.ipynb` | Polar contour extraction, Fourier reconstruction, reconstruction-error assessment, geometric descriptors, classifications, frequency tables and spatial sector analysis. |
 
 ## 2. Processing workflow
 
@@ -88,7 +88,7 @@ FINAL_MAX_AREA = None
 
 ### 4.2 Run the segmentation
 
-1. Open `segmentation_EN.ipynb`.
+1. Open `segmentation.ipynb`.
 2. Change `IMAGE_PATH` and, if needed, `OUTPUT_DIR`.
 3. Execute the first code cell. It defines the processing functions and invokes `main()`.
 4. Inspect the segmentation preview and output files before proceeding.
@@ -212,10 +212,6 @@ For a clean execution, update the assignment at the end of cell 2 to `results, l
 
 Both notebooks contain paths beginning with `/home/victor/...`. These are local to the original workstation. Update the segmentation input, the second segmentation cell's paths, the Fourier mask input, and the Fourier CSV/Excel output paths.
 
-### 6.3 Language of notebook content
-
-Although the notebook filenames end in `_EN`, some Portuguese text remains in comments, docstrings, figure labels and printed messages. The code documentation and interface have not been fully internationalized.
-
 ### 6.4 Data and validation
 
 - No sample thin-section image is bundled with these two notebooks.
@@ -229,8 +225,8 @@ Although the notebook filenames end in `_EN`, some Portuguese text remains in co
 ```text
 repository/
 ├── README.md
-├── segmentation_EN.ipynb
-├── fourier_modelo_final_EN.ipynb
+├── segmentation.ipynb
+├── fourier_modelo_final.ipynb
 ├── data/
 │   └── README.md                 # Explain how to obtain input images
 └── results/                      # Optional generated outputs
