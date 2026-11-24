@@ -130,7 +130,7 @@ Make sure the destination directory exists before running the cell. The output i
 The notebook expects a binary grain mask, with foreground pixels representing grains. Its second cell contains:
 
 ```python
-px_to_um = 0.072
+px_to_um = 3.952569
 min_harmonics = 1
 max_harmonics = 300
 ```
