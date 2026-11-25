@@ -43,7 +43,7 @@ Original RGB photomicrograph
   -> figures, CSV and Excel outputs
 ```
 
-**Do not confuse the RGB-color extraction in the second segmentation cell with RGB reference-color tolerance segmentation.** The former separates colors assigned to a **rendered watershed visualization**, not target mineral colors in the original photomicrograph. **DBSCAN is not used in either of the two supplied notebooks.**
+**Do not confuse the RGB-color extraction in the second segmentation cell with RGB reference-color tolerance segmentation.** The former separates colors assigned to a **rendered watershed visualization**, not target mineral colors in the original photomicrograph.
 
 ## 3. Installation and environment
 
